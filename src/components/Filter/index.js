@@ -24,6 +24,7 @@ function Filter(props) {
         {props.btnOptions.length ? (
           props.btnOptions.map((btn) => (
             <button
+              className="btn btn-primary"
               key={btn.name}
               value={btn.value}
               onClick={(e) => props.handleClick(e)}
